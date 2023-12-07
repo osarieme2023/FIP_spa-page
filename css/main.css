@@ -120,7 +120,13 @@ Couples Resort Responsive Build
     background: url(../images/spa_image_no1_edit_jpg.jpg) no-repeat;
     height: 200px;
  }
+
+  #dining{
+    background: url(../images/dining_image1.jpg) no-repeat;
+    height: 200px;
+ }
  
+
  .book-now {
     background-color: #9a2018;
     color: #fff;
@@ -142,9 +148,21 @@ Couples Resort Responsive Build
     height: 67px;
  }
  
- #hero-heading-box {
+ #hero-heading-box-2 {
     align-self: end;
  }
+
+ #hero-heading-box-3 {
+   align-self: end;
+}
+
+#hero-heading-box-4 {
+   align-self: end;
+}
+
+#hero-heading-box-5 {
+   align-self: end;
+}
  
  .hero-img-h2, .hero-img-h3 {
     background: rgb(255, 255, 255);
@@ -306,6 +324,40 @@ Couples Resort Responsive Build
    height: 195px;
 }
  
+/*-- Dining--*/
+
+
+#dining-r{
+   background: url(../images/dining_room_2.jpg) no-repeat;
+   height: 200px;
+}
+
+#g-dining{
+   background: url(../images/gourmet_dining.jpg) no-repeat;
+   height: 200px;
+}
+
+#p-s-dining{
+   background: url(../images/patio_service.jpg) no-repeat;
+   height: 200px;
+}
+
+#d-dining{
+   background: url(../images/drinks.jpg) no-repeat;
+   height: 200px;
+}
+
+#vegan{
+   color: white;
+   background-color: #CF6666;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin: 30px auto;
+}
+
  /* 6. ---About & FAQ--- */
  
  #about-hero-con {
