@@ -150,18 +150,23 @@ Couples Resort Responsive Build
  
  #hero-heading-box-2 {
     align-self: end;
+    margin-bottom: 20px;
  }
 
  #hero-heading-box-3 {
    align-self: end;
+
+   margin-bottom: 20px;
 }
 
 #hero-heading-box-4 {
    align-self: end;
+   margin-bottom: 20px;
 }
 
 #hero-heading-box-5 {
    align-self: end;
+   margin-bottom: 20px;
 }
  
  .hero-img-h2, .hero-img-h3 {
@@ -356,6 +361,11 @@ Couples Resort Responsive Build
    padding-top: 20px;
    padding-bottom: 20px;
    margin: 30px auto;
+}
+#menu{
+   align-items: center;
+   text-align: center;
+   justify-content: center;
 }
 
  /* 6. ---About & FAQ--- */
