@@ -685,7 +685,7 @@ Couples Resort Responsive Build
    margin-top: 10px;
 }
 
-#consent [type="checkbox"] + label::before {
+#consent [type="checkbox"] + label::after {
    content: '';
    position: absolute;
    width: 15px;
@@ -696,7 +696,7 @@ Couples Resort Responsive Build
    border-radius: 50%;
 }
 
-#consent [type="checkbox"]:checked + label::before {
+#consent [type="checkbox"]:checked + label::after {
    content: '';
    position: absolute;
    width: 15px;
