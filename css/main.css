@@ -459,6 +459,23 @@ Couples Resort Responsive Build
    background-color: white;
    border:#1d1d1d;
    border-radius: 5px;
+   margin-right: 20px;
+   opacity: .8;
+}
+
+#view3{
+   color: rgb(0, 0, 0);
+   margin-left: 100px;
+   margin-top: -1px;
+   font-size: smaller;
+   text-align: center;
+}
+
+.button3{
+   padding: 3px 3px;
+   background-color: white;
+   border:#1d1d1d;
+   border-radius: 5px;
    margin-right: 200px;
    opacity: .8;
 }
@@ -641,7 +658,56 @@ Couples Resort Responsive Build
     background-color: #626262;
     border-radius: 0;
  }
- 
+
+ #consent {
+   display: flex;
+   align-items: center;
+}
+
+#consent input {
+   margin-right: 8px;
+}
+
+#consent label {
+   font-size: 12px;
+   color: #000000;
+}
+
+#consent [type="checkbox"]{
+   opacity: 0;
+}
+
+#consent [type="checkbox"] + label {
+   position: relative;
+   padding-left: 20px;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 10px;
+}
+
+#consent [type="checkbox"] + label::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   outline: 2px solid #CF6666;
+   left: -15px;
+   top: 2px;
+   border-radius: 50%;
+}
+
+#consent [type="checkbox"]:checked + label::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   outline: 2px solid #6fcf66;
+   left: -15px;
+   top: 2px;
+   border-radius: 50%;
+   background-image: url('../images/green_checkbox.jpg');
+   background-size: contain;
+}
  
  /* 8. ---Footer--- */
  
@@ -653,6 +719,22 @@ Couples Resort Responsive Build
     margin-top: 40px;
     padding-bottom: 80px;
  }
+
+ @keyframes submitButtonAnimation {
+   0% {
+      transform: scale(1);
+   }
+   50% {
+      transform: scale(1.1);
+   }
+   100% {
+      transform: scale(1);
+   }
+}
+
+input[type="submit"] {
+   animation: submitButtonAnimation 0.5s ease-in-out infinite; /* You can adjust the duration and timing function as needed */
+}
  
  #footer-hero h3 {
     margin-top: 30px;
@@ -673,3 +755,4 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+
